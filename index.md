@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -48,7 +48,7 @@
     <!-- Contact / API Demo Section -->
     <section id="contact" class="section">
         <h2>Contact / API Demo</h2>
-        <p>Email: <a href="mailto:farhiya@example.com">farhiya@example.com</a></p>
+        <p>Email: <a href="mailto:fay.solutions@gmail.com">farhiya@example.com</a></p>
         <div id="apiMessage">Loading API message...</div>
     </section>
 
