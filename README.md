@@ -23,5 +23,5 @@ Designed to showcase my AI and cloud capabilities through hands-on projects.
 MVP deployed, source code available in this repository.
 
 **Contact / Links:**  
-- GitHub: [yourusername](https://github.com/farhiya-ai)  
-- LinkedIn: 
+- GitHub: (https://github.com/farhiya-ai)  
+- LinkedIn: linkedin.com/in/farhiyafarah
