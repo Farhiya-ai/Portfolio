@@ -1,61 +1,98 @@
-/* style.css */
-
-/* Reset some defaults */
+/* General Styles */
 body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f9f9f9;
+    background: linear-gradient(120deg, #e0f7fa, #fce4ec);
     color: #333;
+}
+
+/* Navbar */
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #3949ab;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffeb3b;
+}
+
+/* Sections */
+.section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #5c6bc0;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: #5c6bc0;
+    margin-bottom: 15px;
+}
+
+p, li {
+    font-size: 1.1rem;
     line-height: 1.6;
 }
 
-/* Center content */
-.container {
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+ul {
+    padding-left: 20px;
 }
 
-/* Headings */
-h1 {
-    color: #5c6bc0;
-    text-align: center;
-}
-
-/* Paragraphs */
-p {
-    text-align: center;
-    font-size: 1.1rem;
-}
-
-/* API message display */
+/* API Message */
 #apiMessage {
-    margin-top: 30px;
+    margin-top: 25px;
     padding: 15px;
     background-color: #e8eaf6;
     border-left: 4px solid #5c6bc0;
-    border-radius: 6px;
+    border-radius: 8px;
     text-align: center;
     font-weight: bold;
 }
 
-/* Button (optional if you want one) */
-button {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    background-color: #5c6bc0;
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3949ab;
     color: #fff;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 1rem;
 }
 
-button:hover {
-    background-color: #3949ab;
+footer a {
+    color: #ffeb3b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
