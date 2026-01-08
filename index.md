@@ -54,8 +54,8 @@
 
     <footer>
         <p>Find me online: 
-            <a href="https://github.com/yourusername" target="_blank">GitHub</a> | 
-            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+            <a href="https://github.com/farhiya-ai" target="_blank">GitHub</a> | 
+            <a href="https://www.linkedin.com/in/farhiyafarah" target="_blank">LinkedIn</a>
         </p>
     </footer>
 
