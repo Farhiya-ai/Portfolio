@@ -1,2 +1,8 @@
-# Portfolio
-Portfolio showcasing AWS cloud architecture, data analytics, BI dashboards, and machine learning projects demonstrating actionable insights and cloud expertise.
+# Hello 🌱
+
+I’m Farhiya.
+
+I’m using this space to learn, build skills, and try out ideas.  
+It’s a work in progress.
+
+Thanks for stopping by!
