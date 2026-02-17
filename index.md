@@ -16,3 +16,184 @@
         body {
             font-family: 'Inter', sans-serif;
             line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #1a73e8;
+            padding: 10px 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            padding: 40px 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        #about {
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+
+        #skills {
+            background-color: #e3f2fd;
+        }
+
+        #projects {
+            background-color: #f0f4f8;
+        }
+
+        #contact {
+            background-color: #e8f5e9;
+        }
+
+        h1, h2 {
+            color: #1a73e8;
+            margin-top: 0;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        /* Project cards */
+        .project-cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1 1 250px;
+            text-decoration: none;
+            color: #333;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #1a73e8;
+        }
+
+        #projects a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1a73e8;
+            color: white;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 0 5px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h1>Hello 👋, I'm Farhiya</h1>
+        <p>Just building skills and projects, one step at a time!</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li>Cloud Computing: AWS (Solutions Architect, Gen AI, ML)</li>
+            <li>Programming: Python</li>
+            <li>Machine Learning & AI projects</li>
+            <li>Serverless development (Lambda, API Gateway)</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="project-cards">
+            <a href="https://singlepageapplication1.s3.us-east-2.amazonaws.com/index.html" target="_blank" rel="noopener noreferrer" class="card">
+                <h3>End-to-End AWS LLM Setup</h3>
+                <p>This site demonstrates a full serverless AI workflow on AWS.</p>
+            </a>
+            <a href="https://github.com/your-username/serverless-api-demo" target="_blank" rel="noopener noreferrer" class="card">
+                <h3>Serverless API Demo</h3>
+                <p>A demo showing serverless API integration with AI services.</p>
+            </a>
+            <div class="card">
+                <h3>Upcoming AI/ML Projects</h3>
+                <p>Exciting projects coming soon!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:farhiya.solutions@gmail.com">farhiya.solutions@gmail.com</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Find me online: 
+            <a href="https://github.com/farhiya-ai" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a> | 
+            <a href="https://www.linkedin.com/in/farhiyafarah" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        </p>
+    </footer>
+
+</body>
+</html>
