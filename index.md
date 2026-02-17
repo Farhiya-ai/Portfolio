@@ -41,7 +41,7 @@
     <ul>
         <li>
             <a href="https://singlepageapplication1.s3.us-east-2.amazonaws.com/index.html" target="_blank" rel="noopener noreferrer">
-                End-to-End AWS LLM Setup (this site)
+                End-to-End AWS LLM Setup 
             </a>
         </li>
         <li>
