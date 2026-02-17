@@ -13,124 +13,127 @@
 
     <!-- CSS Styles -->
     <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            line-height: 1.6;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
+       body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #1F2937;  /* dark gray text */
+    margin: 0;
+    padding: 0;
+    background-color: #FDF6E3; /* soft page background */
+}
 
-        nav {
-            background-color: #1a73e8;
-            padding: 10px 20px;
-        }
+nav {
+    background-color: #4B6CB7; /* primary blue-purple */
+    padding: 10px 20px;
+}
 
-        nav ul {
-            list-style: none;
-            display: flex;
-            gap: 20px;
-            margin: 0;
-            padding: 0;
-        }
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-weight: 600;
-        }
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
 
-        nav a:hover {
-            text-decoration: underline;
-        }
+nav a:hover {
+    color: #FBCB0A;  /* gold accent on hover */
+    text-decoration: underline;
+}
 
-        .section {
-            padding: 40px 20px;
-            margin-bottom: 20px;
-            border-radius: 10px;
-        }
+.section {
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
 
-        #about {
-            background-color: #f9f9f9;
-            text-align: center;
-        }
+#about {
+    background-color: #E0E7FF; /* soft light blue */
+    text-align: center;
+}
 
-        #skills {
-            background-color: #e3f2fd;
-        }
+#skills {
+    background-color: #F0F4F8; /* light gray-blue */
+}
 
-        #projects {
-            background-color: #f0f4f8;
-        }
+#projects {
+    background-color: #E0E7FF;
+}
 
-        #contact {
-            background-color: #e8f5e9;
-        }
+#contact {
+    background-color: #F0F4F8;
+}
 
-        h1, h2 {
-            color: #1a73e8;
-            margin-top: 0;
-        }
+h1, h2 {
+    color: #4B6CB7;  /* primary color for headings */
+    margin-top: 0;
+}
 
-        ul {
-            padding-left: 20px;
-        }
+ul {
+    padding-left: 20px;
+}
 
-        /* Project cards */
-        .project-cards {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
+/* Project cards */
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
-        .card {
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            flex: 1 1 250px;
-            text-decoration: none;
-            color: #333;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 250px;
+    text-decoration: none;
+    color: #1F2937;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
 
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 12px rgba(0,0,0,0.15);
-        }
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+}
 
-        .card h3 {
-            margin-top: 0;
-            color: #1a73e8;
-        }
+.card h3 {
+    margin-top: 0;
+    color: #4B6CB7;
+}
 
-        #projects a {
-            text-decoration: none;
-            color: inherit;
-        }
+#projects a {
+    text-decoration: none;
+    color: inherit;
+}
 
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #1a73e8;
-            color: white;
-        }
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4B6CB7;
+    color: white;
+}
 
-        footer a {
-            color: white;
-            text-decoration: none;
-            font-weight: 600;
-            margin: 0 5px;
-        }
+footer a {
+    color: #FBCB0A;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 5px;
+}
 
-        footer a:hover {
-            text-decoration: underline;
-        }
+footer a:hover {
+    text-decoration: underline;
+}
 
-        /* Smooth scrolling */
-        html {
-            scroll-behavior: smooth;
-        }
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
     </style>
 </head>
 <body>
