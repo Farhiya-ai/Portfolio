@@ -29,21 +29,29 @@
         <h2>Skills</h2>
         <ul>
             <li>Cloud Computing: AWS (Solutions Architect, Gen AI, ML)</li>
-            <li>Programming: Python, JavaScript</li>
+            <li>Programming: Python</li>
             <li>Machine Learning & AI projects</li>
             <li>Serverless development (Lambda, API Gateway)</li>
         </ul>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="section">
-        <h2>Projects</h2>
-        <ul>
-            <li>Portfolio website (this site!)</li>
-            <li>Serverless API demo</li>
-            <li>Upcoming AI/ML projects</li>
-        </ul>
-    </section>
+<section id="projects" class="section">
+    <h2>Projects</h2>
+    <ul>
+        <li>
+            <a href="https://singlepageapplication1.s3.us-east-2.amazonaws.com/index.html" target="_blank" rel="noopener noreferrer">
+                End-to-End AWS LLM Setup (this site)
+            </a>
+        </li>
+        <li>
+            <a href="https://github.com/your-username/serverless-api-demo" target="_blank" rel="noopener noreferrer">
+                Serverless API demo
+            </a>
+        </li>
+        <li>Upcoming AI/ML projects</li>
+    </ul>
+</section>
 
     <!-- Contact / API Demo Section -->
     <section id="contact" class="section">
