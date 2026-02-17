@@ -48,7 +48,7 @@
     <!-- Contact / API Demo Section -->
     <section id="contact" class="section">
         <h2>Contact / API Demo</h2>
-        <p>Email: <a href="mailto:fay.solutions@gmail.com">fay.solutions@gmail.com</a></p>
+        <p>Email: <a href="mailto:farhiya.solutions@gmail.com">farhiya.solutions@gmail.com</a></p>
         <div id="apiMessage">Loading API message...</div>
     </section>
 
