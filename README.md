@@ -1,4 +1,4 @@
-# Hello 🌱
+# Farhiya Farah — Portfolio
 
 I'm Farhiya — Founder of **Farhiya Solutions**, focused on **Cloud & AI Security**.
 
