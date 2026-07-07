@@ -151,7 +151,8 @@ html {
     <!-- About Section -->
     <section id="about" class="section">
         <h1>Hello 👋, I'm Farhiya</h1>
-        <p>Just building skills and projects, one step at a time!</p>
+        <p><strong>Founder, Farhiya Solutions</strong> — Cloud &amp; AI Security</p>
+        <p>I build and secure serverless AI applications on AWS. My focus: helping small organizations deploy GenAI workloads with security built in from day one — least-privilege IAM, logging and detection, and safe LLM integration. Currently deepening my cloud security expertise (CompTIA Security+ and AWS Security Specialty track). Based in the Washington, DC area.</p>
     </section>
 
     <!-- Skills Section -->
@@ -159,9 +160,12 @@ html {
         <h2>Skills</h2>
         <ul>
             <li>Cloud Computing: AWS (Solutions Architect, Gen AI, ML)</li>
+            <li>Cloud Security: AWS IAM, S3 hardening, CloudTrail, GuardDuty (hands-on labs in progress)</li>
+            <li>AI/LLM Security: OWASP Top 10 for LLM applications, prompt-injection testing (in progress)</li>
+            <li>Serverless development: Lambda, API Gateway, S3</li>
+            <li>GenAI on AWS: Bedrock, SageMaker</li>
             <li>Programming: Python</li>
-            <li>Machine Learning & AI projects</li>
-            <li>Serverless development (Lambda, API Gateway)</li>
+            <li>Certifications in progress: CompTIA Security+, AWS Certified Security – Specialty</li>
         </ul>
     </section>
 
@@ -171,15 +175,19 @@ html {
         <div class="project-cards">
             <a href="https://singlepageapplication1.s3.us-east-2.amazonaws.com/index.html" target="_blank" rel="noopener noreferrer" class="card">
                 <h3>End-to-End AWS LLM Setup</h3>
-                <p>This site demonstrates a full serverless AI workflow on AWS.</p>
-            </a>
-            <a href="https://github.com/your-username/serverless-api-demo" target="_blank" rel="noopener noreferrer" class="card">
-                <h3>Serverless API Demo</h3>
-                <p>A demo showing serverless API integration with AI services.</p>
+                <p>A live serverless AI application on AWS — Lambda, API Gateway, and S3 powering an LLM-backed single-page app.</p>
             </a>
             <div class="card">
-                <h3>Upcoming AI/ML Projects</h3>
-                <p>Exciting projects coming soon!</p>
+                <h3>AWS Security Hardening Write-up <em>(in progress)</em></h3>
+                <p>Securing my own AWS environment end to end: least-privilege IAM redesign, S3 bucket hardening, and CloudTrail + GuardDuty monitoring — with a public write-up of findings and fixes.</p>
+            </div>
+            <div class="card">
+                <h3>Serverless Threat Detection Lab <em>(in progress)</em></h3>
+                <p>CloudTrail logs streamed to a Lambda function that detects and alerts on suspicious account activity — security tooling built entirely serverless.</p>
+            </div>
+            <div class="card">
+                <h3>LLM Application Security <em>(in progress)</em></h3>
+                <p>Prompt-injection testing and mitigation for my own Bedrock-based app, mapped to the OWASP Top 10 for LLM applications.</p>
             </div>
         </div>
     </section>
