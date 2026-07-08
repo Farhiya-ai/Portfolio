@@ -1,33 +1,43 @@
 # Farhiya Farah — Portfolio
 
-I'm Farhiya — Founder of **Farhiya Solutions**, focused on **Cloud & AI Security**.
+Cybersecurity GRC | Federal IT Risk | AI Governance & Cloud Compliance
 
-I build and secure serverless AI applications on AWS, and I'm currently
-deepening my cloud security expertise (CompTIA Security+ and AWS Certified
-Security – Specialty track). Based in the Washington, DC area.
+I work at the intersection of security governance and hands-on cloud/AI.
+Over eight years across DHS, CDC, EPA, and the Library of Congress, I have
+tied security and risk to business outcomes — NIST 800-53 assessments, RMF,
+FISMA compliance, and IT investment risk — while building real AWS and
+GenAI applications on the side. Current focus: AI governance and cloud
+compliance for federal and regulated environments. Washington, DC area.
 
-# What I Do
+## Skills & Credentials
 
-**Focus areas:**
-- Secure AWS architecture: least-privilege IAM, S3 hardening, CloudTrail + GuardDuty
-- Serverless GenAI applications: Bedrock, SageMaker, Lambda, API Gateway
-- LLM application security: prompt-injection testing, OWASP Top 10 for LLMs
+- **GRC:** NIST 800-53, RMF, FISMA, POA&M remediation, CPIC, FITARA, TBM
+- **Security operations:** Splunk, Nessus, Wireshark, MITRE ATT&CK-aligned
+  triage, threat intelligence (VirusTotal, AlienVault OTX, MISP)
+- **Cloud & AI:** AWS (Bedrock, SageMaker, Lambda, API Gateway, S3, IAM,
+  CloudTrail, GuardDuty), Python
+- **Certifications:** CompTIA Security+ · PMP · CSM · AWS Certified
+  Solutions Architect · AWS Certified Machine Learning Engineer – Associate ·
+  CTBME (CySA+ in progress)
+- **Education:** M.S. Information Assurance · MBA · B.A.Sc. Chemistry
 
-**Tech stack:**
-- AWS Bedrock, SageMaker, Lambda, API Gateway, S3, IAM, CloudTrail, GuardDuty
-- Python
+## Hands-On Projects
 
-# Portfolio Projects
+Lab work that keeps my governance advice grounded in how cloud and AI
+systems actually behave.
 
-- **End-to-End AWS LLM Setup** — a live serverless AI application on AWS (deployed).
-- **AWS Security Hardening Write-up** *(in progress)* — securing my own AWS
-  environment end to end, with a public write-up of findings and fixes.
-- **Serverless Threat Detection Lab** *(in progress)* — CloudTrail → Lambda
-  detection and alerting for suspicious account activity.
-- **LLM Application Security** *(in progress)* — prompt-injection testing and
-  mitigations for my Bedrock-based app.
+- **End-to-End AWS LLM Setup** — a live serverless AI application on AWS
+  (Bedrock, Lambda, API Gateway, S3). Deployed.
+- **AWS Security Hardening Write-up** *(in progress)* — least-privilege IAM
+  redesign, S3 hardening, and CloudTrail + GuardDuty monitoring, with a
+  public write-up of findings and fixes.
+- **Serverless Threat Detection Lab** *(in progress)* — CloudTrail logs
+  streamed to a Lambda function that detects and alerts on suspicious
+  account activity.
+- **LLM Application Security** *(in progress)* — prompt-injection testing
+  and mitigations mapped to the OWASP Top 10 for LLM applications.
 
-# Contact / Links
+## Contact
 
 - Email: farhiya.solutions@gmail.com
 - GitHub: https://github.com/farhiya-ai
